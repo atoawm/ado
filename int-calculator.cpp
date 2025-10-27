@@ -16,6 +16,16 @@ a/b = 0.4
 
 #include <iostream>
 
-int main()
-{
+int main(){
+    float a;
+    float b;
+    std::cin>> a;
+    std::cin>> b;
+    std::cout<<"a+b = "<<a+b<<"\n";
+    std::cout<<"a-b = "<<a-b<<"\n";
+    std::cout<<"a*b = "<<a*b<<"\n";
+    std::cout<<"a/b = "<<a/b;
+    return 0;
+
+
 }
