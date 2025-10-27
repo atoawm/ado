@@ -12,3 +12,17 @@ a-b = -3
 a*b = 10
 a/b = 0.4
 ```*/
+#include <iostream>
+
+int main(){
+    int a,b;
+    std::cin>>a>>b;
+    
+    std::cout<<"a+b = "<<a+b<<"\n";
+    std::cout<<"a-b = "<<a-b<<"\n";
+    std::cout<<"a*b = "<<a*b<<"\n";
+    std::cout<<"a/b = "<<a/b;
+    return 0;
+
+
+}
